@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.praktika">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Praktika">
+        <activity
+            android:name=".AllTest"
+            android:exported="true" />
+        <activity
+            android:name=".Result7"
+            android:exported="true" />
+        <activity
+            android:name=".Functions"
+            android:exported="true" />
+        <activity
+            android:name=".Result6"
+            android:exported="true" />
+        <activity
+            android:name=".Cerdo"
+            android:exported="true" />
+        <activity
+            android:name=".Result5"
+            android:exported="true" />
+        <activity
+            android:name=".CirRaspCoef"
+            android:exported="true" />
+        <activity
+            android:name=".Result4"
+            android:exported="true" />
+        <activity
+            android:name=".LifeIndex"
+            android:exported="true" />
+        <activity
+            android:name=".Result3"
+            android:exported="true" />
+        <activity
+            android:name=".Heart"
+            android:exported="true" />
+        <activity
+            android:name=".CB"
+            android:exported="true" />
+        <activity
+            android:name=".Result2"
+            android:exported="true" />
+        <activity
+            android:name=".Result1"
+            android:exported="true" />
+        <activity
+            android:name=".StepsCount"
+            android:exported="true" />
+        <activity
+            android:name=".BMI"
+            android:exported="true" />
+        <activity
+            android:name=".Result"
+            android:exported="true" />
+        <activity
+            android:name=".Index"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
